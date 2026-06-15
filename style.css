@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    line-height: 1.6;
+}
+
+/* Header */
+header{
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+#company-name{
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav{
+    background-color: teal;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: yellow;
+}
+
+/* Main Content */
+main{
+    width: 85%;
+    margin: 25px auto;
+}
+
+/* Sections */
+section{
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+section h2{
+    color: navy;
+    margin-bottom: 15px;
+    border-bottom: 2px solid teal;
+    padding-bottom: 5px;
+}
+
+/* Services List */
+ul{
+    margin: 15px 0;
+    padding-left: 25px;
+}
+
+li{
+    margin-bottom: 8px;
+}
+
+/* Contact */
+address{
+    font-style: normal;
+}
+
+address a{
+    color: teal;
+    text-decoration: none;
+}
+
+address a:hover{
+    text-decoration: underline;
+}
+
+/* Footer */
+footer{
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+nav{
+    background-color: teal;
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
